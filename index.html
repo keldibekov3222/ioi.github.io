@@ -45,8 +45,10 @@
 					</li>
 					<li>
 						<a href="">
-							<button class="uk-button uk-button-default button-contact uk-margin-small-right">Contact Us
-								<img class="uk-margin-small-left arrow" width="16px" src="img/icon/right-arrow.svg" alt="">
+							<button class="uk-button uk-button-default button-contact uk-margin-small-right" type="button"
+								uk-toggle="target: #contact">Contact Us
+								<!--<div class="arrow uk-icon" uk-icon="arrow-right"></div>-->
+								<!--<img class="uk-margin-small-left arrow" width="16px" src="img/icon/right-arrow.svg" alt="">-->
 							</button>
 						</a>
 					</li>
@@ -57,9 +59,25 @@
 					</li>
 				</ul>
 			</div>
-
 		</div>
 	</header>
+	<!-- This is a button toggling the modal with the default close button -->
+
+	<!-- This is the modal with the default close button -->
+	<div id="contact" uk-modal>
+		<div class="uk-modal-dialog uk-modal-body">
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<h2 class="uk-modal-title">Contact</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+				ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+				anim id est laborum.</p>
+		</div>
+	</div>
+
+	<!-- This is a button toggling the modal with the outside close button -->
+
 
 	<div class="uk-container uk-margin-medium-top">
 		<div class="uk-flex" uk-grid>
@@ -265,23 +283,89 @@
 				uk-slider-item="next"></a>-->
 
 		</div>
-
-
-
-
-
-
-
-
 	</div>
 
 
-	<div class="uk-container uk-margin-xlarge-top">
+	<div class="uk-container uk-container-small uk-margin-large-top">
+		<div class="uk-card work-card blue uk-card-default uk-flex" uk-grid>
+			<div class="uk-width-1-2@m">
+				<div class="uk-margin-medium-top">
+					<div class="top-title">Samsung Business</div>
+					<div class="mid-title">Корпоративный сайт, с помощью которого увеличи продажи компании</div>
+					<div class="review">
+						<div class="review-txt">
+							"The speed and agility of the team in delivering desirable results was remarkable”
+						</div>
+						<div>
+							<div class="txt-author">Carl Lindgren</div>
+							<div class="txt-dd">Founder</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<img src="img/main/banner-img.svg" alt="">
+			</div>
+		</div>
+		<div class="uk-card work-card blue uk-card-default uk-flex" uk-grid>
+			<div class="uk-width-1-2@m">
+				<div class="uk-margin-medium-top">
+					<div class="top-title">Samsung Business</div>
+					<div class="mid-title">Корпоративный сайт, с помощью которого увеличи продажи компании</div>
+					<div class="review">
+						<div class="review-txt">
+							"The speed and agility of the team in delivering desirable results was remarkable”
+						</div>
+						<div>
+							<div class="txt-author">Carl Lindgren</div>
+							<div class="txt-dd">Founder</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<img src="img/main/banner-img.svg" alt="">
+			</div>
+		</div>
+		<div class="uk-card work-card blue uk-card-default uk-flex" uk-grid>
+			<div class="uk-width-1-2@m">
+				<div class="uk-margin-medium-top">
+					<div class="top-title">Samsung Business</div>
+					<div class="mid-title">Корпоративный сайт, с помощью которого увеличи продажи компании</div>
+					<div class="review">
+						<div class="review-txt">
+							"The speed and agility of the team in delivering desirable results was remarkable”
+						</div>
+						<div>
+							<div class="txt-author">Carl Lindgren</div>
+							<div class="txt-dd">Founder</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<img src="img/main/banner-img.svg" alt="">
+			</div>
+		</div>
+		<div class="uk-text-center uk-margin-small-top ">
+			<a class="txt-all" href="">Показать все</a>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div class=" uk-container uk-margin-xlarge-top">
 		<div class="uk-flex" uk-grid>
 			<div class="uk-width-1-2@m main-title uk-margin-xlarge-top">
 				<h2 class="uk-title h2-title uk-margin-bottom">We Promise. We Deliver. </h2>
-				<p class="txt">We deliver web and mobile app development services to global businesses since 1997, with 100%
-					project delivery success. Hire the best programmers at affordable prices. Our design-focused approach and
+				<p class="txt">We deliver web and mobile app development services to global businesses since 1997,
+					with 100%
+					project delivery success. Hire the best programmers at affordable prices. Our design-focused
+					approach and
 					project execution processes help you to deliver the right solutions.
 				</p>
 				<button class="uk-button uk-button-default button-contact uk-margin-medium-top">Contact Us
@@ -293,11 +377,58 @@
 		</div>
 	</div>
 
+	<footer class="uk-margin-top">
+		<di class="uk-container">
+			<hr>
+			<div uk-sticky class="uk-navbar-container" uk-navbar>
+
+				<div class="uk-navbar-left uk-margin-left">
+					<ul class="uk-navbar-nav">
+						<li><img src="img/logo/logo.svg" alt=""></li>
+					</ul>
+				</div>
+
+				<div class="uk-navbar-center uk-margin-right ">
+					<ul class="uk-navbar-nav">
+						<li>
+							<a class="txt-footer" href="">About</a>
+						</li>
+						<li>
+							<a class="txt-footer" href="">Services</a>
+						</li>
+						<li>
+							<a class="txt-footer" href="">Technolygy</a>
+						</li>
+						<li>
+							<a class="txt-footer" href="">Solutions</a>
+						</li>
+						<li>
+							<a class="txt-footer" href="#"> Work </a>
+						</li>
+					</ul>
+				</div>
+				<div class="uk-navbar-right">
+					<ul class="uk-navbar-nav">
+						<div>
+							<a class="ff uk-icon-button uk-icon" uk-icon="instagram" href=""></a>
+							<a class="ff uk-icon-button uk-icon" uk-icon="whatsapp" href=""></a>
+						</div>
+					</ul>
+				</div>
+
+			</div>
+			<div class="uk-text-center txt uk-margin-small-top uk-margin-small-bottom">© IOI Labs. Все права защищены.
+			</div>
+
+			</div>
+	</footer>
 
 
 
 
-	<script src="js/uikit.min.js"></script>
+
+	<script src=" js/uikit.min.js">
+	</script>
 	<script src="js/uikit-icons.min.js"></script>
 </body>
 

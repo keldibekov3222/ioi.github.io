@@ -42,7 +42,16 @@ body {
 	border-width: 2px;
 }
 
-
+.btn {
+	background-color: #fff;
+	padding: 0px;
+}
+.uk-dropdown {
+	padding: 3px!important;
+	min-width: 0px;
+	background: transparent!important;
+	box-shadow: none;
+}
 
 
 
@@ -206,6 +215,12 @@ body {
 
 .core-2 {
 	background-color: #E6DDF4;
+}
+.core-3 {
+	background-color: #D1D3F6;
+}
+.core-4 {
+	background-color: #F6D6D6;
 }
 
 .service-title {

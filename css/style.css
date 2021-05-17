@@ -198,6 +198,11 @@ body {
 	width: 100%;
 }
 /* Inner */
+.gg {
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -1.5px;
+}
 /* Inner */
 
 /* Service */
@@ -321,14 +326,87 @@ body {
 }
 
 .service-icon {
-	width: 56px;
+	max-width: 56px;
 	padding-left: 20px;
 }
 /* Service */
 /* Service */
 
+a:hover {
+	text-decoration: none!important;
+}
+
+/* Work */
+/* Work */
+.port-imgs {
+	transition: all .3s ease-in;
+	overflow: hidden!important;
+}
+.port-imgs:hover {
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.port-category {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+	color: #81959e;
+	margin-top: 15px;
+	letter-spacing: 1px;
+}
+.port-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 5px;
+}
+.port-desc {
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 26px;
+	height: 55px;
+	overflow: hidden;
+	color: #252b33;
+	text-overflow: ellipsis;
+}
+
+.port-tech {
+	margin-top: 5px;
+	text-transform: uppercase;
+	border: 1px solid #dae1e4;
+	border-radius: 12px;
+	font-size: 13px;
+	color: #81959e;
+	padding: 1px 10px;
+	margin-right: 4px;
+	display: inline-block;
+}
+
+/* Work */
+/* Work */
+
+
+
+
 /* Footer */
 /* Footer */
+footer {
+	background-color: #fff!important;
+}
+.fixed-contact {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: transparent;
+	/*-webkit-box-shadow: -14px -14px 67px 54px rgba(34, 60, 80, 0.08);
+-moz-box-shadow: -14px -14px 67px 54px rgba(34, 60, 80, 0.08);
+box-shadow: -14px -14px 67px 54px rgba(34, 60, 80, 0.13);*/
+
+}
+
+.contact {
+	width: 32px;
+}
 
 .txt-footer {
 	font-size: 15px!important;

@@ -14,6 +14,15 @@ body {
 
 /* Navbar */
 /* Navbar */
+
+.main-bg {
+	background-image: url(../img/main/main-bg.jpg);
+	background-size: 100%;
+	padding-bottom: 100px;
+}
+
+
+
 .uk-navbar-nav>li>a {
 	text-transform: none;
 	font-size: 17px;
@@ -73,6 +82,8 @@ body {
 	font-size: 50px ;
 	letter-spacing: -1;
 	line-height: 60px;
+	color: #fff!important;
+	text-shadow: 0 0 5px #555, 0 0 5px #333;
 }
 .main-title {
 	padding-right: 30px!important;
@@ -80,6 +91,12 @@ body {
 .txt {
 	font-size: 16px;
 	line-height: 28px;
+}
+.txt1 {
+	font-size: 16px;
+	line-height: 28px;
+	color: #fff!important;
+	font-weight: 500;
 }
 
 .banner {
@@ -215,18 +232,46 @@ body {
 	border-radius: 5px;
 }
 .core-1 {
+	background-color: transparent;
+	transition: all .2s ease-in;
+}
+.core-1:hover {
 	background-color: #C3D8F6;
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 
 .core-2 {
 	background-color: #E6DDF4;
+	background-color: transparent;
+	transition: all .2s ease-in;
+}
+.core-2:hover {
+	background-color: #E6DDF4;
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 .core-3 {
 	background-color: #D1D3F6;
+	background-color: transparent;
+	transition: all .2s ease-in;
+}
+.core-3:hover {
+	background-color: #D1D3F6;
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 .core-4 {
 	background-color: #F6D6D6;
+	background-color: transparent;
+	transition: all .1s ease-in;
 }
+.core-4:hover {
+	background-color: #F6D6D6;
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
 
 .service-title {
 	font-size: 20px;
@@ -247,19 +292,58 @@ body {
 
 .my-card-service {
 	cursor: pointer;
+	transition: all .2s ease-in;
+	
 }
+
+/*.my-card-service:hover {
+	transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+
 /*.my-card-service:hover {
 	
 }*/
 .uk-container-small {
-	max-width: 1050px!important;
+	max-width: 1150px!important;
+}
+.bals {
+	position: relative;
 }
 
+.ball {
+	position: absolute;
+	border-radius: 100%;
+	opacity: 0.25;
+ }
 
-.blue {
+/*.animate {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+ }*/
+
+
+.samsung {
 	background-color: #333;
 }
-
+.madumarov {
+	background-image: linear-gradient(225deg, rgb(0, 84, 42) 0%, rgb(8, 69, 39) 100%);
+}
+.vega {
+	background-image:
+	linear-gradient(225deg, rgb(246,14,14) 0%, rgb(246,73,68) 100%);
+}
 .work-card {
 	border-radius: 10px;
 }
@@ -338,6 +422,10 @@ a:hover {
 
 /* Work */
 /* Work */
+
+.work-container {
+	max-width: 1150px!important;
+}
 .port-imgs {
 	transition: all .3s ease-in;
 	overflow: hidden!important;

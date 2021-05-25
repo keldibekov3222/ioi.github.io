@@ -31,23 +31,42 @@ body {
 
 }
 .uk-navbar-nav>li>a:hover {
-	color: #f13c31!important;
+	color: #151515!important;
 }
 .button-contact {
 	text-transform: none;
 	font-size: 17px;
 	font-weight: 600;
 	padding: 4px 25px;
-	background-color: #f13c31;
+	background-color: #151515;
 	color: #fff!important;
-	border-color:#f13c31;
+	border-color:#151515;
 	border-radius: 25px;
 	transition: all .3s ease-in-out!important;
 }
 
 .button-contact:hover {
-	border-color:#f13c31!important;
-	color:#f13c31!important;
+	background-color: transparent;
+	border-color:#151515!important;
+	color:#151515!important;
+	border-width: 2px;
+}
+.button-contact1 {
+	text-transform: none;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 4px 25px;
+	background-color: #151515;
+	color: #fff!important;
+	border-color:#151515;
+	border-radius: 25px;
+	transition: all .3s ease-in-out!important;
+}
+
+.button-contact1:hover {
+	background-color: transparent;
+	border-color:#151515!important;
+	/*color:#151515!important;*/
 	border-width: 2px;
 }
 
@@ -159,7 +178,7 @@ body {
 	margin-left: 50px;
 	cursor: pointer;
 	margin-top: 5px;
-	color: #f13c31!important;
+	color: #151515!important;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 28px;
@@ -177,7 +196,7 @@ body {
 	width: 0%;
 	content: '.';
 	color: transparent;
-	background: #f13c31;
+	background: #151515;
 	height: 1px;
 	transition: all .3s linear!important;
 
@@ -190,7 +209,7 @@ body {
 	text-decoration: none!important;
 	cursor: pointer;
 	margin-top: 15px!important;
-	color: #f13c31!important;
+	color: #151515!important;
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 28px;
@@ -207,7 +226,7 @@ body {
 	width: 0%;
 	content: '.';
 	color: transparent;
-	background: #f13c31;
+	background: #151515;
 	height: 1px;
 	transition: all .3s linear!important;
 }
@@ -505,7 +524,7 @@ box-shadow: -14px -14px 67px 54px rgba(34, 60, 80, 0.13);*/
 }
 
 .ff:hover {
-	color: #f13c31!important;
+	color: #151515!important;
 }
 /* Footer */
 /* Footer */
